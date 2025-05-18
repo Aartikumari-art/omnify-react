@@ -75,7 +75,7 @@ const MyBlogs = () => {
     >
       <h2 className="text-center py-3">My Blogs</h2>
 
-      <div className="container flex-grow-1 mb-3">
+      <div className="container flex-grow-1 mb-5 pb-5">
         {loading ? (
           <div className="text-center my-5">
             <Spinner animation="border" />
@@ -85,7 +85,7 @@ const MyBlogs = () => {
         ) : (
           <div className="row">
             {currentBlogs.map((blog) => (
-              <div key={blog._id} className="col-md-6 col-lg-4 mb-5">
+              <div key={blog._id} className="col-12 col-md-6 col-lg-4 mb-5">
                 <div className="card h-100 shadow-lg rounded-4 border-0 blog-card">
                   <div className="card-body d-flex flex-column">
                     <Link

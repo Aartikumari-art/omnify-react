@@ -16,7 +16,7 @@ export default function Register() {
     setLoading(true);
     try {
       await registerApi({ name, email, password });
-      toast.success("Registration successful! Please log in.");
+      toast.success("Registration successful!");
       navigate("/create-blog");
     } catch (err) {
       

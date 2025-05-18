@@ -42,7 +42,7 @@ const BlogDetail = () => {
         padding: "2rem 0",
       }}
     >
-      <div className="container">
+      <div className="container pb-5">
         <div className="card shadow-lg rounded-4 border-0 p-4">
           <h2>{blog.title}</h2>
           <div className="text-muted small mb-3 d-flex justify-content-between">
