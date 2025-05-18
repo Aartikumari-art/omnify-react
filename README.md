@@ -1,12 +1,47 @@
-# React + Vite
+# 📝 Full-Stack Blog Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive full-stack blog platform that allows users to register, log in, and create, view, edit, and manage blog posts. Built using **React (Vite)** for the frontend and **Node.js + Express** for the backend. The application supports user authentication and features public blog viewing with pagination.
 
-Currently, two official plugins are available:
+🌐 **Live Demo**: [https://omnify-react.vercel.app](https://omnify-react.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🔧 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Frontend
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Axios](https://axios-http.com/)
+- [React Router](https://reactrouter.com/)
+
+### Backend
+- [Node.js](https://nodejs.org/)
+- [Express.js](https://expressjs.com/)
+- [MongoDB](https://www.mongodb.com/) (or your selected DB)
+- [Mongoose](https://mongoosejs.com/)
+- [JWT](https://jwt.io/) for user authentication
+- [Bcrypt.js](https://www.npmjs.com/package/bcryptjs) for password hashing
+
+---
+
+## 📚 Features
+
+- 🔐 **User Authentication**
+  - Register & Login with email and password
+  - Secure password hashing using Bcrypt
+  - JWT-based authentication
+
+- 📝 **Blog Management**
+  - Authenticated users can create, edit, and manage their blogs
+  - Each blog includes a **title** and **content**
+  - Blogs are listed publicly with pagination
+
+- 🌍 **Public Access**
+  - Anyone (even without login) can browse blogs
+  - Blog detail pages show the full content
+
+- 📱 **Responsive Design**
+  - Works on desktop, tablet, and mobile
+
+---
+
