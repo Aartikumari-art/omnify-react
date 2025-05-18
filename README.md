@@ -17,7 +17,7 @@ A responsive full-stack blog platform that allows users to register, log in, and
 ### Backend
 - [Node.js](https://nodejs.org/)
 - [Express.js](https://expressjs.com/)
-- [MongoDB](https://www.mongodb.com/) (or your selected DB)
+- [MongoDB](https://www.mongodb.com/) 
 - [Mongoose](https://mongoosejs.com/)
 - [JWT](https://jwt.io/) for user authentication
 - [Bcrypt.js](https://www.npmjs.com/package/bcryptjs) for password hashing
